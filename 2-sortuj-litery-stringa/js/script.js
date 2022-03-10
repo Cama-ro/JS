@@ -1,8 +1,8 @@
 // split - rozbijanie liter w osobne tablice
 
-function splitString(str) {
-  return str.split("");
+function lettersFromString(str) {
+  return str.split("").toString("");
 }
 
-splitString("Akademia108");
-console.log(splitString("Akademia108"));
+lettersFromString("Akademia108");
+console.log(lettersFromString("Akademia108"));
