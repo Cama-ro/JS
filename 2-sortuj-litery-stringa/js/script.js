@@ -1,7 +1,7 @@
 // split - rozbijanie liter w osobne tablice
 
 function lettersFromString(str) {
-  return str.split("").toString("");
+  return str.split("").sort().join("");
 }
 
 lettersFromString("Akademia108");

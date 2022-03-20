@@ -6,7 +6,7 @@ let jsonPracownicy = {
   ],
 };
 
-console.log(jsonPracownicy.pracownicy);
+console.log(jsonPracownicy);
 
 jsonPracownicy.pracownicy.forEach((pracownik, index) => {
   console.log(
