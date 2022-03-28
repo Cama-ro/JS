@@ -5,9 +5,9 @@ const arrayPowAndSum = (n) => {
 
   for (let i = 0; i < numbers.length; i++) {
     sum += Math.pow(numbers[i], 2);
-
-    console.log(Math.pow(numbers[i], 2));
   }
+
+  return sum;
 };
 
-arrayPowAndSum(numbers);
+console.log(arrayPowAndSum(numbers));
